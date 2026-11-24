@@ -14,10 +14,10 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 const OUT_DIR = "/output";
 const OUT_PATH = `${OUT_DIR}/entry.txt`;
 
-// The entry, verbatim: a toaster that owns its crime and has already
-// escalated the situation to the smoke alarm. 93 characters.
+// The entry, verbatim: a toaster in denial about the bagel that never
+// existed. 71 characters.
 const ENTRY =
-  "ERROR 04: I burned your toast again. I have no regrets, but I have preheated the smoke alarm.";
+  "ERROR 07: 'Bagel' selected. There is no bagel. There never was a bagel.";
 
 function abort(message: string): never {
   console.error(`error: ${message}`);
